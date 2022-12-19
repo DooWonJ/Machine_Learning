@@ -70,7 +70,9 @@
    # - 4. 분산분석(Analysis of Variance)
          
          * SSR/SSE의 값을 통해 X변수와 에러에 의해 설명된 양의 차이를 알아보고자 함.
+         
          ![image](https://user-images.githubusercontent.com/86637366/208461100-823210dc-2d46-4f48-88ef-975bf813f9ec.png)
+         
          - SSR/SSE의 분포는 모르지만, SSR, SSE 각각 카이제곱 분포를 따르고, 각 수치를 자유도로 나눈 값, MSR, MSE를 통해 통계적 판단이 가능해짐.
          - MSR(Mean Squared Residual): SSR / DF(1)
          - MSE(Mean Squared Error): SSE / DF(n-2)
