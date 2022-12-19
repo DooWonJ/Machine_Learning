@@ -47,7 +47,7 @@
         (2) smallest variance estimator $V(\alpha\hat{\beta_0}) <= V(\beta\hat{\theta})$ 
      
  
-   # - 3. 결정계수($R^2$)
+   # - 3. 결정계수
    
    ![image](https://user-images.githubusercontent.com/86637366/208448158-b1ef9028-e2e2-448b-90b4-0f7bcf3a8341.png)
 
@@ -64,7 +64,7 @@
        * 사용하는 X변수의 품질
        
      * 수정 결정계수(Adjusted $R^2$)
-         * $R_adj^2 = 1- \frac{n-1}{n-p-1} \frac{SSE}{SST}$ ( <= $\R^2$)
+         * $R_adj^2 = 1- \frac{n-1}{n-p-1} \frac{SSE}{SST}$
          * 결정계수는 표본 수가 증가하고 유의하지 않은 종속 변수가 추가되어도 증가한다는 단점이 있다.
          * 수정 결정계수는 특정 계수를 곱해주어, 유의하지 않는 변수가 추가되면 증가하지 않게 한다.
    # - 4. 분산분석(Analysis of Variance)
