@@ -41,4 +41,5 @@
       * 음의 log likelihood function의 기대값
       * Cross entropy를 최소화한다는 것은 입력분포와 출력분포 차이를 최소화한다는 것을 의미
       * max log likelihood function = min Creoss entropy
+
       
